@@ -1,21 +1,21 @@
-if SHIELD_FIFI_LEFT
+if SHIELD_DACTYL_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Fifi"
+	default "Dactyl"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
 endif
 
-if SHIELD_FIFI_RIGHT
+if SHIELD_DACTYL_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "Fifi Right"
+	default "Dactyl Right"
 	
 endif
 
-if SHIELD_FIFI_LEFT || SHIELD_FIFI_RIGHT
+if SHIELD_DACTYL_LEFT || SHIELD_DACTYL_RIGHT
 
 config ZMK_SPLIT
 	default y
